@@ -1,0 +1,198 @@
+/*
+default Css
+Color Code: #00aeef;
+COlor name: Blue;
+*/
+
+::-moz-selection {
+  background: #00aeef;
+}
+::selection {
+  background: #00aeef;
+}
+
+button,
+input,
+select,
+optgroup,
+textarea {
+    color: #00aeef;
+}
+blockquote i {
+    color: #00aeef;
+}
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+  border-color: #00aeef; 
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+input[type="range"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="week"]:focus,
+input[type="time"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="color"]:focus,
+textarea:focus,
+textarea.form-control:focus {
+  border-color: #00aeef;
+  box-shadow: 0 0px 0px #00aeef inset, 0 0 0px #00aeef; 
+}
+a:hover,
+a:focus,
+a:active {
+  color: #00aeef;
+}
+/*************************************************/
+
+/*background*/
+.blog-section-2x .video-1x .video-content a.btn-circle,
+.service-section-4x .service-right .tab-content .tab-pane h3:after,
+.job-single-1x .apply-job a.medical-btn-larg,
+.job-board-1x .single-job a:hover ,
+.blog-single-left-content .blog-single-body .blog-single-footer .footer-comment-area ul li a,
+.blog-list-1x .blog-list-right .tag-link a:hover,
+.schedule-section-2x .doctors-schedule-tab .schedule-tab .single-schedule .single-schedule-bottom a.btn-round i,
+.backtotop,
+.footer-section-1x .footer-top .footer-top-left .footer-subscriber button.btn-subscriber,
+.blog-section-1x .single-blog span,
+ul.slick-dots li button,
+.service-section-1x .single-service:hover,
+.schedule-section-1x .appoinment .single-input input.form-control,
+.schedule-section-1x .appoinment,
+.schedule-section-1x .special-offer .offer-sticker .offer-content,
+.schedule-section-1x .opening-time,
+a.btn-bordered:hover,
+a.btn-ellips,
+a.btn-small,
+a.medical-btn-larg:hover {
+    background: #00aeef; 
+}
+/*color*/
+.blog-section-2x .single-blog:hover .media-body a,
+.blog-section-2x .single-blog .media .media-body a:hover,
+.service-section-4x .service-right .tab-content .tab-pane i,
+.top-menu-3x .top-menu-right button.search i,
+.top-menu-3x .top-menu-left ul li span,
+.events-banner .overlay-text .countdown-timer .countdown-single,
+.events-banner .overlay-text h4,
+.job-single-1x .job-features i,
+.cta-1x .cta-right a.medical-btn-larg:hover,
+.job-board-1x .single-job a,
+.job-board-1x .single-job p i,
+.job-board-1x .single-job h2 span,
+.blog-single-left-content .comment-section .media .media-body h5 span a,
+.blog-single-left-content .comment-section .media .media-body h5,
+.pricing-plan-1x .single-pricing ul li i,
+.contact-page-1x .contact-address ul li i,
+.contact-page-1x .contact-form .single-input i,
+.blog-list-1x .blog-list-right .twitter-feed ul li a,
+.blog-list-1x .blog-list-right .recent-popular-post ul.recent-popular-nav li .active,
+.blog-list-1x .blog-list-left .single-blog .blog-footer .footer-read-more a.blog-read-more,
+.schedule-section-2x .doctors-schedule-tab .schedule-tab .no-schedule h3,
+.schedule-section-2x .doctors-schedule-tab .schedule-tab .single-schedule .single-schedule-top h3,
+.service-section-3x .single-service .single-service-content:hover h3, .service-section-3x .single-service .single-service-content:hover a,
+.service-section-2x .single-service:hover i, .service-section-2x .single-service:hover h3,
+.about-section-2x .counter-section-2x .single-counter i,
+.about-section-2x .counter-section-2x .single-counter strong,
+.about-section-2x .right-section h2 span,
+.footer-section-1x .footer-bottom ul li a:hover,
+.footer-section-1x .footer-bottom a:hover,
+.footer-section-1x .footer-top .footer-top-left .single-link ul li a:hover,
+.blog-section-1x .single-blog .blog-content a:hover,
+.department-section-1x .department-left ul li i,
+.service-section-1x .single-service i,
+.schedule-section-1x .appoinment a.btn-appoinment:hover,
+.schedule-section-1x .special-offer .countdown-timer .countdown-single,
+.schedule-section-1x .special-offer .price span,
+.schedule-section-1x .special-offer h3,
+.schedule-section-1x .opening-time ul.time-nav-tab .active,
+.overlay-text h2 span,
+.dropdown-item:focus,
+.dropdown-item:hover,
+.btco-hover-menu .collapse ul > li:hover > a,
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .active > .nav-link,
+.top-menu-2x .top-menu-right button.search i,
+.top-menu-1x button.search i,
+.top-menu-1x .social-link ul li:hover a i,
+a.btn-bordered {
+  color: #00aeef;
+}
+/*background color*/
+.service-section-4x .service-right .nav-pills .nav-link.active,
+.service-section-4x .service-right .nav-pills .show > .nav-link,
+.blog-list-1x .blog-list-left .blog-pagination nav ul .page-item.active .page-link,
+.schedule-section-2x .doctors-schedule-tab ul.schedule-nav .active,
+.schedule-section-1x .opening-time ul.time-nav-tab .nav-link {
+    background-color: #00aeef;
+}
+/*border*/
+a.btn-bordered {
+  border: 2px solid #00aeef;
+}
+/*border*/
+.blog-section-2x .single-blog .media .media-body a:before,
+.service-section-4x .service-right .tab-content .tab-pane h3:before{
+  border: 1px solid #00aeef;
+}
+
+/*border-color*/
+.blog-list-1x .blog-list-left .blog-pagination nav ul .page-item.active .page-link {
+    border-color: #00aeef;
+}
+/*border-left*/
+.featured-sticker {
+  border-left: 120px solid #00aeef;
+}
+
+/*All Background RGBA*/
+.about-section-1x .about-section-right {
+    background: linear-gradient(rgba(0, 174, 239, 0.9), rgba(0, 174, 239, 0.9)), url(images/about-right.html);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: none;
+}
+.counter-section-1x {
+    background: linear-gradient(rgba(0, 174, 239, 0.85), rgba(0, 174, 239, 0.85)), url(images/counter-bg.html);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: none;
+ }
+.single-gallery .hvrbox .hvrbox-layer_top,
+.single-doctor .hvrbox .hvrbox-layer_top {
+    background: rgba(0, 174, 239, 0.85); 
+}
+.testimonial-section-1x {
+    background: linear-gradient(rgba(0, 174, 239, 0.9), rgba(0, 174, 239, 0.9)), url(images/testimonial-bg.html);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.image-description-1x .description-left {
+    background: linear-gradient(rgba(0, 174, 239, 0.9), rgba(0, 174, 239, 0.9));
+}
+.cta-1x {
+    background: linear-gradient(rgba(0, 174, 239, 0.9), rgba(0, 174, 239, 0.9)), url(images/slider-2.html);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.event-speakers {
+    background: linear-gradient(rgba(0, 174, 239, 0.9), rgba(0, 174, 239, 0.9)), url(images/speaker-bg.html);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/*background opacity*/
+.blog-section-2x .single-blog .media span{  
+     background: rgba(0, 174, 239, 0.8);
+}

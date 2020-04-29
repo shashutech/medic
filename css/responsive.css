@@ -1,0 +1,400 @@
+@media screen and (min-width: 992px) and (max-width: 1199px) {}
+
+@media screen and (min-width: 992px) {}
+
+@media screen and (max-width: 991px) {}
+
+@media screen and (min-width: 1921px) {}
+
+@media screen and (max-width: 768px) {
+
+    /******* Home Two ******/
+    .top-menu-1x .top-menu-right ul li {
+        display: block;
+        line-height: 35px;
+    }
+
+    .top-menu-1x button.search {
+        float: left;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    /******* Home One ******/
+    .top-menu-2x {
+        text-align: left;
+    }
+
+    .top-menu-2x .top-menu-left ul li {
+        display: block;
+        line-height: 30px;
+    }
+
+    .top-menu-2x .top-menu-right {
+        margin-top: 30px;
+    }
+
+    /**** main menu****/
+    .btco-hover-menu .collapse ul ul,
+    .btco-hover-menu .collapse ul ul.dropdown-menu {
+        background: #fff;
+        margin-left: 30px;
+        padding-top: 0;
+    }
+
+    ul.main-menu-nav li ul.dropdown-menu li ul.dropdown-menu {
+        margin-left: 30px;
+    }
+
+    .overlay-text h2 {
+        font-size: 30px;
+    }
+
+    .overlay-text p {
+        font-size: 13px;
+        line-height: 25px;
+    }
+
+    .overlay-text a.medical-btn-larg {
+        margin-top: 20px;
+        padding: 10px 15px;
+        font-size: 13px;
+    }
+
+    .appoinment {
+        text-align: center;
+    }
+
+    .schedule-section-1x .appoinment .single-input i {
+        margin-top: 10px;
+    }
+
+    .schedule-section-1x .appoinment .single-input input.form-control {
+        height: 38px;
+    }
+
+    .blog-section-1x .single-blog {
+        margin-bottom: 30px;
+    }
+
+    .blog-section-1x .single-blog span {
+        position: absolute;
+        top: 0;
+        left: 17px;
+    }
+
+    .footer-section-1x .footer-top .footer-top-right {
+        margin-top: 30px;
+    }
+
+    .footer-section-1x .footer-top .footer-top-left .single-link ul {
+        margin: 30px 0;
+    }
+
+    .footer-section-1x .footer-bottom ul li {
+        margin: 0 8px 0 0;
+    }
+
+    /******* About Us ******/
+    .page-banner .overlay-text {
+        margin-top: 12%;
+    }
+
+    .about-section-2x .right-section {
+        margin-top: 50px;
+    }
+
+    .about-section-2x .counter-section-2x .single-counter {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .image-description-1x .description-left {
+        position: relative;
+    }
+
+    .image-description-1x .descriptive-image img {
+        position: none;
+    }
+
+    .negative-margin-right {
+        margin-right: 0 !important;
+    }
+
+    .negative-margin-left {
+        margin-left: 0 !important;
+    }
+
+    .no-padding-right {
+        padding-right: 15px;
+    }
+
+    .no-padding-left {
+        padding-left: 15px;
+    }
+
+    .doctors-section-1x .single-doctor {
+        margin-bottom: 30px;
+    }
+
+    .testimonial-section-1x {
+        height: 820px;
+    }
+
+    .slider-content {
+        padding: 0;
+    }
+
+    /******** Blog *********/
+
+    .blog-container img.blog-intro-img{
+        height: 180px;
+        width: auto;
+        margin: auto;
+    }
+    .blog-container{
+        min-height: 60vh;
+        margin-top: 25px;
+    }
+
+
+    .blog-list-right {
+        padding-bottom: 120px;
+    }
+
+    .blog-list-1x .blog-list-left .single-blog .blog-footer .social-link {
+        text-align: left;
+        margin-top: 30px;
+    }
+
+    /******** Blog Single*********/
+    .blog-single-left-content .blog-single-body .blog-single-footer .social-link {
+        text-align: left;
+        margin-top: 30px;
+    }
+
+    .page-banner .overlay-text h3 {
+        font-size: 20px;
+    }
+
+    .page-banner ol.breadcrumb li {
+        font-size: 13px;
+    }
+
+    .blog-single-left-content .comment-section .media {
+        display: block;
+    }
+
+    .blog-single-left-content .comment-section .media img {
+        margin-bottom: 20px;
+    }
+
+    /******** Doctors Grid *********/
+    .doctors-search-bar-right {
+        margin-top: 30px;
+    }
+
+    /******** Events *********/
+    .cta-1x .cta-right a.medical-btn-larg {
+        float: left;
+        margin-top: 30px;
+    }
+
+    .events-banner .overlay-text .countdown-timer {
+        display: none;
+    }
+
+    /******** Service *********/
+    .service-section-3x a.btn-small {
+        float: left;
+    }
+
+    /******** Single Doctor *********/
+    .schedule-section-2x .doctors-schedule-tab .schedule-tab .single-schedule {
+        margin-bottom: 50px;
+    }
+
+    /*********Home 2********/
+    .about-section-1x .about-section-left {
+        margin-bottom: 100px;
+    }
+
+    .about-section-1x .about-section-right {
+        height: auto;
+        margin-top: 30px;
+    }
+
+    /*********Comming Soon********/
+    .comming-soon-banner .countdown-single {
+        margin-bottom: 30px;
+    }
+
+    .comming-soon-banner .countdown-single span {
+        font-size: 30px !important;
+    }
+
+    .comming-soon-banner .overlay-text h3 {
+        margin: 30px 0;
+    }
+
+    /**************Home 3***************/
+    .top-menu-3x .top-menu-right {
+        float: left;
+    }
+
+    .top-menu-3x .top-menu-left ul {
+        padding: 25px 0;
+    }
+
+    .top-menu-3x .top-menu-right .btn-appoinment-large {
+        padding: 25px 46px 19px 94px;
+    }
+
+    .top-menu-3x .top-menu-right button.search {
+        margin-left: -5px;
+    }
+
+    .service-section-4x .service-right .tab-content .tab-pane h3:after {
+        left: 47.5%;
+    }
+
+    .blog-section-2x .single-blog .media {
+        display: block;
+    }
+
+    .blog-section-2x .single-blog .media span {
+        bottom: 165px;
+        left: 0;
+    }
+
+    .blog-section-2x .single-blog .media .media-body {
+        padding: 30px 30px 30px 0;
+    }
+
+    video {
+        width: 100%;
+        height: 300px;
+    }
+
+    /* Mentor */
+    .mentor img.mentor-img{
+        display: block !important;
+        height: 200px;
+        width: 200px;
+        margin: 20px auto;
+        border-radius: 50% !important;
+        
+    }
+}
+
+@media screen and (max-width: 730px) {}
+
+@media screen and (max-width: 480px) {
+
+    /****** Blog *******/
+
+    .blog-container img.blog-intro-img{
+        height: 150px;
+        width: auto;
+        margin: auto;
+    }
+    .blog-container{
+        min-height: 60vh;
+        margin-top: 25px;
+        background-color: rgb(248, 247, 247);
+        margin-bottom: 60px;
+    }
+
+    .page-banner .overlay-text {
+        margin-top: 15%;
+    }
+
+    /**********Events Grid************/
+    .single-event .media {
+        display: block;
+    }
+
+    .top-menu-3x .top-menu-left ul li {
+        line-height: 40px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+
+    /********* Home One ********/
+    .site-search {
+        width: 90%;
+    }
+
+    .overlay-text h2 {
+        font-size: 20px;
+    }
+
+    .overlay-text p {
+        display: none;
+    }
+
+    .page-banner ol.breadcrumb li {
+        font-size: 12px;
+    }
+
+    /**********Blog************/
+    .page-banner .overlay-text {
+        margin-top: 20%;
+    }
+
+    .page-banner .overlay-text h3 {
+        font-size: 15px;
+    }
+
+    .blog-section-1x .single-blog .blog-content .blog-footer ul li {
+        font-size: 15px;
+    }
+
+    /*********Comming Soon********/
+    .comming-soon-banner .countdown-single span {
+        font-size: 20px !important;
+    }
+
+    .comming-soon-banner .countdown-single p {
+        display: block;
+        font-size: 16px !important;
+    }
+
+    .service-section-4x .service-right .tab-content .tab-pane h3::after {
+        left: 52%;
+    }
+
+    .blog-section-2x .single-blog .media span {
+        bottom: 190px;
+    }
+
+    .service-section-4x .service-right .tab-content .tab-pane h3::before {
+        left: 37.5%;
+    }
+
+    .service-section-4x .service-right .tab-content .tab-pane h3::after {
+        left: 48%;
+    }
+
+    .top-menu-3x .top-menu-right .btn-appoinment-large {
+        padding: 25px 65px;
+    }
+
+    .top-menu-3x .top-menu-right button.search {
+        margin-top: 31px;
+    }
+
+    .top-menu-3x .top-menu-left ul {
+        padding: 25px 0 50px 0;
+    }
+
+    
+}
+
+@media print {
+    a[href]:after {
+        content: none !important;
+    }
+}
