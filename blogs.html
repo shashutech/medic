@@ -65,7 +65,7 @@
 									</li>
 
 									<li class="nav-item">
-										<a class="nav-link" href="index.html#aboutUs">About Us</a>
+										<a class="nav-link" href="research.html">Research</a>
 									</li>
 
 									<li class="nav-item">
@@ -131,8 +131,10 @@
 												<h3>Quick Links</h3>
 												<ul>
 													<li><a href="index.html"> Home </a></li>
+													<li><a href="index.html#aboutUs"> About Us </a></li>
 													<li><a href="team.html"> Our Mentor </a></li>
-													
+													<li></li>
+
 												</ul>
 											</div>
 										</div>
@@ -140,7 +142,7 @@
 											<div class="single-link">
 												<h3>Help</h3>
 												<ul>
-													<li><a href="contact-us.php"> Purchase Products </a></li>
+													<li><a href="products.html"> Purchase Products </a></li>
 													<li><a href="team.html"> Our Team</a></li>
 													<li><a href="contact-us.php"> Contact Us </a></li>
 												</ul>
@@ -157,6 +159,10 @@
 													<li class="twitter"><a href="#"> <i class="fab fa-twitter"></i> </a></li>
 													<li class="google-plus"><a href="#"> <i class="fab fa-google-plus-g"></i> </a></li>
 												</ul>
+												<p class="bold py-2">Visitors Count : <!-- hitwebcounter Code START -->
+													
+													<img src="https://hitwebcounter.com/counter/counter.php?page=7283486&style=0010&nbdigits=4&type=page&initCount=896" title="User Stats" Alt="PHP Hits Count"  >
+													 </p>
 											</div>
 										</div>
 
@@ -173,7 +179,9 @@
 											<div class="media">
 												<i class="fas fa-map-marker-alt"></i>
 												<div class="media-body">
-													Shivalik Hostel, Indian Institute of Technology Delhi, Hauz Khas, New Delhi, Delhi 110016
+													Cabin-2 Block-1,<br>
+													IIT Delhi, Hauzkhas,<br>
+													New Delhi-110016
 												</div>
 											</div>
 										</li>
@@ -189,7 +197,7 @@
 											<div class="media">
 												<i class="fas fa-envelope"></i>
 												<div class="media-body">
-													medicfibers@gmail.com
+													contact@medicfibers.com
 												</div>
 											</div>
 										</li>
@@ -231,10 +239,13 @@
 	</footer>
 
 
+
+
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="js/jquery.min.js"></script>
 	<script src="js/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
 	 crossorigin="anonymous"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="js/bootstrap.min.js"></script>
 	<!-- OWL Carousel js-->
 	<script src="js/owl.carousel.min.js"></script>
@@ -243,24 +254,42 @@
 	<!-- Counter Script -->
 	<script src="js/waypoints.min.js"></script>
 	<script src="js/jquery.counterup.min.js"></script>
+	<!-- Masonry Portfolio Script -->
 	<script src='js/jquery.mixitup.min.js'></script>
 	<!-- Lightbox js -->
 	<script src="inc/lightbox/js/jquery.fancybox.pack.js"></script>
 	<script src="inc/lightbox/js/lightbox.js"></script>
-	<!-- Google map js -->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCa6w23do1qZsmF1Xo3atuFzzMYadTuTu0"></script>
-	<script src="js/map.js"></script>
 	<!-- loader js-->
 	<script src="js/fakeLoader.min.js"></script>
 	<!-- Scroll bottom to top -->
 	<script src="js/scrolltopcontrol.js"></script>
 	<!-- menu -->
 	<script src="js/bootstrap-4-navbar.js"></script>
+	<!-- youtube popup video -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
 	<!-- Testimonial slider Script -->
 	<script src="slick/slick.min.js"></script>
 	<!-- Custom script -->
 	<script src="js/custom.js"></script>
+	<script>
+		$(function () {
+			// Smooth Scrolling
+			$('a[href*="#"]:not([href="#"])').click(function () {
+				if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+					var target = $(this.hash);
+					target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+					if (target.length) {
+						$('html, body').animate({
+							scrollTop: target.offset().top
+						}, 1000);
+						return false;
+					}
+				}
+			});
+		});
+	</script>
 
 </body>
+
 
 </html>

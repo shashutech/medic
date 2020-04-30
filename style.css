@@ -1904,8 +1904,8 @@ Subject to copyright
 /* Mentor */
 
 .mentor {
-	padding-top: 40px;
-	padding-bottom: 20px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 	background: #f5f5f5;
 }
 
@@ -1937,6 +1937,12 @@ Subject to copyright
 	shape-outside: circle();
 }
 
+.small-img img {
+	height: 200px;
+	display: block;
+	margin: auto;
+	width: 200px;
+}
 .mentor2 p {
 	padding-top: 0px;
 }
@@ -3901,32 +3907,15 @@ nav #nav-donate-btn a:hover {
 	margin: 30px auto;
 }
 
-#carouselExampleIndicators img {
-	width: 100%;
-	height: auto;
-	max-height: 500px;
-	background-size: cover;
-	background-position: center;
+#front-research-bg .card img {
+	display: block;
+	height: 300px;
+	width: auto;
+	margin: auto;
 }
 
-.carousel-indicators .active {
-	background-color: #8c9699 !important;
-}
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-	height: 30px;
-	width: 30px;
-	outline: white;
-	padding: 10px;
-	background-color: #00afefc0;
-	background-size: 100%, 100%;
-	border-radius: 50%;
-	border: 1px solid #fff;
-}
-
-.carousel-inner > .item > img {
-	margin: 0 auto;
+#front-research-bg a {
+	color: #fff;
 }
 
 #products-front {
@@ -4004,13 +3993,101 @@ nav #nav-donate-btn a:hover {
 	width: auto;
 }
 
-.carousel-indicators > li {
-	border-radius: 50%;
+.research-section-block img {
+	display: block;
+	height: 300px;
+	width: auto;
+	margin: auto;
+}
+
+.research-section-block {
+	border: 1px solid #00c3ff;
+	padding: 20px 0;
+	margin-bottom: 40px;
+}
+
+.research-section-block p {
+	padding: 20px 0;
+	padding-right: 20px;
+}
+
+.research-section-block h4 a {
+	color: #21759b;
+}
+
+.research-section-block a.btn {
+	color: #fff;
+}
+
+.research-section-block h4 a:hover {
+	color: #00c3ff;
+}
+
+#breadcrumb {
+	border-bottom: 0;
+	margin-left: 0;
+	padding-left: 0;
+}
+#breadcrumb ul,
+ol {
+	margin: 0;
+}
+
+.research-content,
+.research-each-section {
+	margin: 30px 0;
+}
+
+.research-each-section img {
+	display: block;
+	height: 300px;
+	margin: auto;
+}
+.research-plan {
+	list-style-type: decimal;
+}
+
+.media-content {
+	margin: 30px auto;
+}
+
+.media-content h4,
+.btn {
+	margin: 10px 0;
+}
+
+.media-content a.btn {
+	color: #fff;
+}
+
+.media-content img {
+	height: 250px;
+	width: auto;
+	display: block;
+	margin: auto;
+}
+
+#products-view-more {
+	margin-top: 40px;
+}
+
+#products-view-more a {
+	color: #fff;
+	display: block;
 }
 
 @media only screen and (max-width: 768px) {
 	#team-content p {
 		padding-right: 0;
+	}
+
+	.card-pad img {
+		margin: 30px auto;
+		display: block;
+	}
+
+	.mentor .post {
+		margin: 20px auto;
 	}
 }
 /*# sourceMappingURL=style.css.map */
